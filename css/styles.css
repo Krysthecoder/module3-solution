@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Homer Simpson Revised', sans-serif;;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    position: relative;
+}
+#logo-img {
+    background: url("../Pictures/imgbin_homer-simpson-drooling-donuts-food-png.png") no-repeat center;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    margin: 10px 15px 10px 0px;
+}
+.navbar-brand h1{
+    color: #557c3e;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    position: absolute;
+    top: 40%;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+.menu {
+    height: auto;
+    width: 100%;
+    border: 1px solid white;
+}
