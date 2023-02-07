@@ -1,12 +1,12 @@
 body {
-    background-color: black;
-    color: #fff;
+    background-color: #ff81c1;
+    color: #9c5b01;
     font-size: 20px;
     font-family: 'Homer Simpson Revised', sans-serif;;
 }
 
 #header-nav {
-    background-color: #f6b319;
+    background-color: #2f64d6;
     border-radius: 0;
     border: 0;
     position: relative;
@@ -19,7 +19,7 @@ body {
     margin: 10px 15px 10px 0px;
 }
 .navbar-brand h1{
-    color: #557c3e;
+    color: #f8db27;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 600;
@@ -37,9 +37,54 @@ body {
 
 h1 {
     text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 3px #222;
+    color: #ffff
+    ;
 }
-.menu {
-    height: auto;
+section {
+    height: 1000px;
+}
+.menu-content {
     width: 100%;
-    border: 1px solid white;
+    height: auto;
+    background-color: #9c5b01;
+    color: #fff;
+    border-radius: 1.5em;
+    text-align: center;
+    border: 3px solid #2f64d6;
+    margin-bottom: 35px;
+}
+.menu-content .menu-item-title {
+    border-bottom: 3px solid #2f64d6;
+    font-size: 1.5em;   
+    padding-bottom: 10px; 
+}
+.menu-content .menu-item-content {
+    margin: 20px 40px 20px 40px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #9c5b01;
+  background-color: #2f64d6;
+}
+.navbar-header button.navbar-toggle {
+clear: both;
+margin-top: -30px;
+}
+.navbar-header button.navbar-toggle .icon-bar {
+    background-color: #9c5b01;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
 }
