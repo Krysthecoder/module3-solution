@@ -28,7 +28,7 @@ body {
     margin-bottom: 0;
     line-height: .75;
     position: absolute;
-    top: 40%;
+    top: 50px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -57,8 +57,13 @@ section {
 }
 .menu-content .menu-item-title {
     border-bottom: 3px solid #2f64d6;
-    font-size: 1.5em;   
+    font-size: 1.8em;   
     padding-bottom: 10px; 
+}
+.menu-content .menu-item-title:hover {
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #222;
+    font-size: 1.5em;
 }
 .menu-content .menu-item-content {
     margin: 20px 40px 20px 40px;
@@ -87,4 +92,60 @@ margin-top: -30px;
 }
 #nav-list a span {
     font-size: 1.8em;
+}
+.btn {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: auto;
+    height: auto;
+    font-size: 1em;
+    border-radius: 2em;
+}
+#menu-buttom {
+    font-size: 1em;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 100%;
+    background-color: #9c5b01;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: #ff81c1;
+    font-size: 1.5em;
+    text-transform: lowercase;
+}
+#menu-buttom ul {
+    list-style-type: none;
+}
+
+.collapse a:hover, .collapse a:focus {
+    text-decoration: none;
+    text-shadow: 1px 2px 3px #222;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#go-back a:hover, #go-back a:focus {
+    text-decoration: none;
+    text-shadow: 1px 2px 3px #222;
+    color: #fff;
+    text-transform: uppercase;
+}
+#go-back a {
+    color: #fff;
+}
+
+/*** Media Querys ***/
+
+@media (max-width: 767px) {
+    .navbar-header {
+        height: 100px;
+    }
+    .navbar-brand h1{
+        font-size: 1.8em;
+        margin-left: 25px;
+    }
 }
